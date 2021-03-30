@@ -1,0 +1,7 @@
+[
+	{
+		"command": "/home/j/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/uno/src/main.o -c -std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p -DF_CPU=16000000L -DPLATFORMIO=50101 -DARDUINO_AVR_UNO -Iinclude -Isrc -I/usr/avr/include src/main.c",
+		"directory": "/home/j/code/arduino",
+		"file": "/home/j/code/arduino/src/main.c"
+	}
+]
