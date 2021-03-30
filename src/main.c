@@ -3,13 +3,13 @@
 #include <util/delay.h>
 
 int main(void) {
-	DDRB |= (1<<PB0);
-	DDRD &= ~(1<<PD2); // input mode on PD2
+	DDRB |= (1<<PB5);
+	DDRD &= ~(1<<PD2); // input mode on PIND2
 	while (1) {
-		if (PIND & (1<<PD2)) {
-			// init
+		if(PIND & (1<<2)) {
+			PORTB |= (1<<PB5);
 		} else {
-
+			PORTB &= ~(1<<PB5);
 		}
 	}
 	return 0;
