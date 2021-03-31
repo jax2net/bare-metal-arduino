@@ -2,6 +2,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
+// change
 int main(void) {
 	DDRB |= (1<<PB5);
 	DDRD &= ~(1<<PD2); // input mode on PIND2
